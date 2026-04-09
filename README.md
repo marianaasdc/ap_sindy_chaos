@@ -39,11 +39,13 @@ ap_sindy_chaos/
 
 Simulated trajectories are generated from the HH and FHN models and used as input to SINDy via the [PySINDy](https://github.com/dynamicslab/pysindy) library. Several sparse regression optimizers are benchmarked:
 
-- **SR3** — Sparse Relaxed Regularized Regression
 - **STLSQ** — Sequentially Thresholded Least Squares
 - **LASSO** — L1-regularized regression
 - **SSR** — Stepwise Sparse Regression
+- **SR3** — Sparse Relaxed Regularized Regression
+- **ConstrainedSR3** - Sparse Relaxed Regularized Regression with Constraints
 
+We also explored dimensionality reduction using PCA implemented in scikit-learn (sklearn.decomposition.PCA)
 
 ---
 
