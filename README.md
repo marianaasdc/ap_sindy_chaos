@@ -1,7 +1,5 @@
 # Data-Driven Discovery and Reduction of Action Potential Dynamics with SINDy
 
-**M. A. S. de Carvalho, R. W. dos Santos, and B. M. Rocha**
-
 ---
 
 ## Overview
@@ -70,6 +68,13 @@ pip install pysindy numpy scipy matplotlib scikit-learn
 
 ---
 
+## Authors 
+
+[M. A. S. de Carvalho](https://github.com/marianaasdc/), R. W. dos Santos, and [B. M. Rocha](https://github.com/rochabm)
+
+
+
+<!--
 ## Citation
 
 If you use this code, please cite:
@@ -78,3 +83,4 @@ If you use this code, please cite:
 M. A. S. de Carvalho, R. W. dos Santos, and B. M. Rocha,
 "Data-driven discovery and reduction of action potential dynamics with SINDy", (submitted).
 ```
+-->
