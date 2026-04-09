@@ -6,12 +6,13 @@
 
 ## Overview
 
-This repository contains the code and notebooks associated with the paper:
+<!--This repository contains the code and notebooks associated with the paper:
 
 > *Data-driven discovery and reduction of action potential dynamics with SINDy*
-> M. A. S. de Carvalho, R. W. dos Santos, and B. M. Rocha *(submitted)*
+> M. A. S. de Carvalho, R. W. dos Santos, and B. M. Rocha *(submitted)* 
+-->
 
-We apply **SINDy** (Sparse Identification of Nonlinear Dynamics) to automatically discover and reduce the governing equations of electrophysiological models from simulated time-series data. The method is evaluated on the Hodgkin-Huxley (HH) and FitzHugh-Nagumo (FHN) models, including PCA-based dimensionality reduction and constrained identification.
+Code that uses **SINDy** (Sparse Identification of Nonlinear Dynamics) to automatically discover and/or reduce the governing equations of electrophysiological models from simulated time-series data. The method is evaluated on the Hodgkin-Huxley (HH) and FitzHugh-Nagumo (FHN) models, including PCA-based dimensionality reduction and constrained identification.
 
 ---
 
@@ -45,7 +46,6 @@ Simulated trajectories are generated from the HH and FHN models and used as inpu
 - **LASSO** — L1-regularized regression
 - **SSR** — Stepwise Sparse Regression
 
-Both normalized and unnormalized variants are explored across a range of regularization thresholds (λ), with model quality assessed via MSE and R² scores.
 
 ---
 
@@ -54,6 +54,19 @@ Both normalized and unnormalized variants are explored across a range of regular
 ```bash
 pip install pysindy numpy scipy matplotlib scikit-learn
 ```
+
+| Package | Version |
+|---|---|
+| Python | 3.11 |
+| pysindy | 1.7.5 |
+| numpy | 1.24.4 |
+| scipy | 1.11.0 |
+| matplotlib | 3.7.0 |
+| scikit-learn | 1.6.1 |
+| pandas | 1.5.3 |
+| sympy | 1.13.1 |
+| jupyter | 1.1.1 |
+
 
 ---
 
